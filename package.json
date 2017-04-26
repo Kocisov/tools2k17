@@ -2,7 +2,6 @@
   "name": "tools2k17",
   "version": "1.0.0",
   "description": "2017 Web tooling presentation built in Next.js",
-  "main": "index.js",
   "repository": "kocisov/tools2k17",
   "author": "kocisov",
   "scripts": {
