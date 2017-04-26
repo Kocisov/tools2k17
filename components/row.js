@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 export default ({ children }) => (
   <div className="row">
     {children}
-    <style jsx>{`
+    <style jsx>
+      {
+        `
       .row {
         align-items: center;
         display: flex;
       }
-    `}</style>
+    `
+      }
+    </style>
   </div>
-)
+);

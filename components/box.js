@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default ({ children }) => (
   <div className="box">
     {children}
-    <style jsx>{`
+    <style jsx>
+      {
+        `
       .box {
         align-items: center;
         display: flex;
@@ -13,6 +15,8 @@ export default ({ children }) => (
       .box:first-of-type {
         width: 450px;
       }
-    `}</style>
+    `
+      }
+    </style>
   </div>
-)
+);
